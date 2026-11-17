@@ -44,11 +44,11 @@ python3 char_society.py
 
 ## Catatan keamanan
 
-Tool ini **bukan** alat DDoS, penyadapan, pencurian data, atau akses jarak jauh ke ponsel. Modul load test hanya mengirim request terbatas ke `localhost`/`127.0.0.1`/`::1`. Discovery dan audit hanya boleh diarahkan ke jaringan/perangkat milik sendiri atau yang secara eksplisit mengizinkan pengujian. Jangan menjalankan scan pada jaringan publik tanpa izin.
+Tool ini **bukan** alat penyadapan, pencurian data, atau hal dapat merugikan orang lain. Modul load test hanya mengirim request terbatas ke `localhost`/`127.0.0.1`/`::1`. Discovery dan audit hanya boleh diarahkan ke jaringan/perangkat milik sendiri atau yang secara eksplisit mengizinkan pengujian. Jangan menjalankan scan pada jaringan publik tanpa izin.
 
 ## Troubleshooting
 
-- `nmap belum terpasang`: jalankan `sudo apt install nmap`.
+- `jika nmap belum terpasang`: jalankan `sudo apt install nmap`.
 - `Permission denied`: jalankan `chmod +x install.sh char_society.py`.
 - Tidak ada host ditemukan: pastikan subnet benar dan perangkat berada pada jaringan yang sama; beberapa perangkat memblokir ping discovery.
 
